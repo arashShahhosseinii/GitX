@@ -3,6 +3,8 @@
 #include <dirent.h>
 #include <string.h>
 
+// this is for test
+
 int search(char* file_name){
     char cwd[1000];
     getcwd(cwd,sizeof(cwd));
